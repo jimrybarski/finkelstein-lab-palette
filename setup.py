@@ -1,10 +1,10 @@
 from setuptools import setup
 
-VERSION = '1.0'
+VERSION = '1.1'
 
 if __name__ == '__main__':
     setup(
-        name='flabpal',
+        name='finkelsteinlabpalette',
         packages=['flabpal'],
         version=VERSION,
         description='Finkelstein Lab standard color palette',
