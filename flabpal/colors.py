@@ -9,6 +9,9 @@ class Color(object):
     def hex(self):
         return "#%s" % "".join((chr(int(255*i)) for i in self.tup)).encode('hex')
 
+    def __len__(self):
+        return 3
+
     def __iter__(self):
         return iter(self.tup)
 
