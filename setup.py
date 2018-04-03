@@ -1,6 +1,7 @@
 from setuptools import setup
+from flabpal import __version__
 
-VERSION = '1.1'
+VERSION = __version__
 
 if __name__ == '__main__':
     setup(

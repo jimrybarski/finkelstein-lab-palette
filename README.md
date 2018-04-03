@@ -7,11 +7,11 @@ Each color is given as a tuple of RGB values (scaled from 0 to 1). These can be 
 
 ### Installation
 
-`pip install finkelsteinlabpalette`
+`pip install numpy && pip install finkelsteinlabpalette`
 
 or if you want to install from source:
 
-`python setup.py install`
+`pip install numpy && python setup.py install`
 
 ### Usage
 
@@ -31,3 +31,13 @@ plt.bar([0, 1, 2, 3, 4, 5, 6, 7, 8],
 Here is how each color looks with some common color deficiencies (generated [here](http://www.color-blindness.com/coblis-color-blindness-simulator/)):
 
 ![flabpal-colorblind](flabpal-colorblind.png)
+
+### Optional Dependencies
+
+To run the unit tests, you'll need to install these libraries in additional to the ones mentioned above:
+
+`pip install pytest matplotlib`
+
+### Testing
+
+In the the top level directory, run `pytest tests.py`
